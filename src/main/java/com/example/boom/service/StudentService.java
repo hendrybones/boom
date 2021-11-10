@@ -15,7 +15,6 @@ public class StudentService {
     public StudentService(StudentRepo studentRepo) {
         this.studentRepo = studentRepo;
     }
-
     public List<Student> getStudents(){
         return studentRepo.findAll();
     }
